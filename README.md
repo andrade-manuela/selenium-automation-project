@@ -11,6 +11,7 @@
 <h3>Installing dependencies</h3>
 
 * Clone this project
+* Install ruby 
 * Install bundler
 <code> gem install bundler</code>
 * Run
