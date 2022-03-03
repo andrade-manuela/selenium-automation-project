@@ -106,7 +106,8 @@ feature 'Flights Page: Validate page actions ' do
     select('2', :from => 'passport_day_1')
     select('2024', :from => 'passport_year_1')
     choose('gateway_pay-later')
-    find('.custom-checkbox').click
+    find('label[for="agreechb"]').click
+    #find('.custom-checkbox').click
     find('button', text: 'Confirm Booking', match: :first).click
     
     #checks if user is redirected to booking page
