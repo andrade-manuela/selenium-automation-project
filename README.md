@@ -11,7 +11,8 @@
 <h3>Installing dependencies</h3>
 
 * Clone this project
-* Install ruby 
+* Install ruby - I use asdf to manage it, but you can also use rvm or rbenv.
+* To install ruby with asdf: <code>asdf plugin add ruby</code> -> <code> asdf install ruby latest </code>
 * Install bundler
 <code> gem install bundler</code>
 * Run
