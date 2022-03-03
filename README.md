@@ -28,3 +28,7 @@ all dependencies should be installed by this point and you can go ahead and run 
 * or even choose an specific one
 
 <code> bundle exec rspec spec/features/02_flights_spec.rb </code>
+
+<h3> Future Improvements/Known issues </h3>
+
+* Add Site Prism to componentize pages or at least parts of it and use way less css selectors.
